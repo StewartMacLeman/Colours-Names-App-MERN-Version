@@ -8,7 +8,7 @@ const Main = (props) => {
       {props.coloursInfo.map((item) => {
         return (
           <ColourBar
-            key={item.hex}
+            key={item._id}
             colName={item.name}
             colRgb={item.rgb}
             colHsl={item.hsl}

@@ -30,7 +30,7 @@ h1, h2, h3, p, button {
   padding: .05rem .15rem;
   background-color: none;
 }
-/* Button styles. ------------------------------------------------------ */
+/* Button styles. -------------------------------------------- */
 button {
   color: white;
   background-color: black;
@@ -42,14 +42,14 @@ button:hover {
   background-color: white;
   cursor: pointer;
 }
-/* Header styles. ------------------------------------------------------ */
+/* Header styles. ------------------------------------------- */
 .header {
   width: 100%;
   margin: 0 auto 1.5rem;
   background-color: lightyellow;
   border-bottom: .2rem solid black;
 }
-/* Main / colour bars containers ----------------------------------------*/
+/* Main / colour bars containers -----------------------------*/
 .main {
   width: 90%;
   min-height: 50vh;
@@ -74,7 +74,7 @@ button:hover {
   border: .15rem solid black;
   background-color: white;
 }
-/* The Modal Cover. -------------------------------------------------------- */
+/* The Modal Cover. ------------------------------------------ */
 .modalCover {
   position: absolute;
   top: 0;
@@ -85,7 +85,7 @@ button:hover {
   background-color: grey;
   opacity: 50%;
 }
-/* The colour info modal. ------------------------------------------------- */
+/* The colour info modal. ------------------------------------ */
 .colourModal {
   width: 91%;
   height: 80%;
@@ -118,7 +118,7 @@ button:hover {
 .colourModal button {
   min-width: 50%;
 }
-/* Media queries. -------------------------------------------------- */
+/* Media queries. ------------------------------------------- */
 @media screen and (min-width: 1050px) {
   body { width: 80%; }
 }
